@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <RelativeLayout
+        android:background="@color/textYellow"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="This is DescoverFragment" >
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="发现"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/discover_Search"
+            android:src="@mipmap/search_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp" />
+    </RelativeLayout>
+</LinearLayout>

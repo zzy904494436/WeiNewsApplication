@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_web"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.weinewsapplication.WebActivity">
+
+    <!--<ScrollView
+        android:id="@+id/scrollViewWeb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:id="@+id/webViewFirst"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <ImageView
+                android:id="@+id/webPic"
+                android:src="@mipmap/icon_fail"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="250dp"
+                />
+        </RelativeLayout>
+    <TextView
+        android:id="@+id/webViewErro"
+        android:gravity="center_horizontal"
+        android:background="@mipmap/icon_fail"
+        android:textSize="16sp"
+        android:text="点 我 重 试 _(:з」∠)_"
+        android:layout_width="match_parent"
+        android:layout_height="560dp" />
+    <!--</ScrollView>-->
+
+    <RelativeLayout
+        android:id="@+id/shareToSina"
+        android:layout_alignParentBottom="true"
+        android:background="@color/newsBlack"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="This is DescoverFragment" >
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="点击分享到微博"
+            android:textSize="15sp"
+            android:textColor="@color/textYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/discover_Search"
+            android:src="@mipmap/sina_login_press"
+            android:layout_width="19dp"
+            android:layout_height="19dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/award_resend"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:layout_width="5dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="热榜推荐"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="17dp"
+        android:elevation="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/discover_ViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

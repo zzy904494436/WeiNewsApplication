@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/dlg_bk"
+        android:scaleType="fitXY"
+        android:layout_width="220dp"
+        android:layout_height="140dp" />
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/happy_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        android:text="登录后才可以使用哦"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:text="再逛逛"
+            android:id="@+id/ZaiGuangGuang"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:textColor="@color/textYellow"
+            android:textSize="15sp"
+            android:text="去登陆"
+            android:id="@+id/QuDengLu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

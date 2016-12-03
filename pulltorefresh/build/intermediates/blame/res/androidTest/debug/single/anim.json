@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_bottom.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/bundles/debug/res/anim/slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_top.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/bundles/debug/res/anim/slide_out_to_top.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_top.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/bundles/debug/res/anim/slide_in_from_top.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_bottom.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/bundles/debug/res/anim/slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_top.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_top.xml"
+    }
+]

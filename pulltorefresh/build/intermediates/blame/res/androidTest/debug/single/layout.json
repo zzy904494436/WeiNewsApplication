@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/D:\\1603studio\\WeiNewsApplication\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/mymac/StudioProjects/WeiNewsApplication/pulltorefresh/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
+    }
+]

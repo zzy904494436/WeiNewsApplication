@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp">
+    <ImageView
+        android:id="@+id/type4_Pic"
+        android:src="@mipmap/icon_fail"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="230dp" />
+    <TextView
+        android:layout_marginTop="80dp"
+        android:id="@+id/type4_Title"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@id/type4_Title"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/join_num_icon"
+            />
+        <TextView
+            android:id="@+id/type4_Others"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:text="1w+人已经参与此活动"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

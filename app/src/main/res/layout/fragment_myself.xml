@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.fragment.MyselfFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--MySelfFragment-->
+    <!--最上一排我的-->
+    <include layout="@layout/myself1_include"/>
+    <!--点击登录Or登陆以后个人信息-->
+    <include layout="@layout/myself2_include"/>
+    <!--点击签到-->
+    <include layout="@layout/myself3_include"/>
+    <!--我的主页-->
+    <include layout="@layout/myself4_include"/>
+    <!--我的消息-->
+    <include layout="@layout/myself5_include"/>
+    <!--我的积分钱包任务-->
+    <include layout="@layout/myself6_include"/>
+    <!--我的设置-->
+    <include layout="@layout/myself7_include"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="35dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/ivResend"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/award_resend"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:layout_width="5dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/ivResend"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="我的订阅"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <ImageView
+            android:id="@+id/ivNext"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/next_arrow_theme"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <TextView
+            android:id="@+id/tvMoreAdd"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textYellow"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/ivNext"
+            android:text="更多订阅"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

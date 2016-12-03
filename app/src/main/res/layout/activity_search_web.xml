@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_web"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.weinewsapplication.SearchWebActivity">
+
+    <LinearLayout
+        android:id="@+id/searchItem"
+        android:orientation="horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="@color/textYellow"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/news_detail_return"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/searchInfo"
+            android:paddingLeft="10dp"
+            android:hint="请输入关键字"
+            android:textSize="13sp"
+            android:background="@drawable/invite_code_bg"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/searchGo"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="搜索"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/searchListView"
+        android:layout_below="@id/searchItem"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:id="@+id/searchItem2"
+        android:layout_below="@id/searchItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="15sp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
+            android:text="- ---热门搜索--- -"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/searchMengChong"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="160dp"
+            android:text="萌宠"
+            android:textSize="13sp"
+            android:layout_width="35dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/searchMao"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@id/searchMengChong"
+            android:layout_toRightOf="@id/searchMengChong"
+            android:text="猫"
+            android:textSize="13sp"
+            android:layout_width="35dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/searchChaiQuan"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@id/searchMao"
+            android:layout_toRightOf="@id/searchMao"
+            android:text="柴犬"
+            android:textSize="13sp"
+            android:layout_width="35dp"
+            android:layout_height="20dp" />
+    </RelativeLayout>
+</RelativeLayout>

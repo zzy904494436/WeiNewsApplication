@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_more_subscribe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qianfeng.weinewsapplication.MoreSubscribeActivity">
+    <!--actionbar-->
+    <include layout="@layout/myself1_include"/>
+    <!--subscribe-->
+    <GridView
+        android:layout_marginTop="20dp"
+        android:id="@+id/moreSubscribe_GridView"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.qianfeng.fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabForTitle"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="@android:color/black"
+        app:tabBackground="@color/textYellow"
+        app:tabTextColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+    <android.support.design.widget.TabLayout
+        android:clickable="false"
+        android:id="@+id/tabForIcon"
+        android:layout_marginTop="26dp"
+        android:paddingTop="10dp"
+        app:tabTextAppearance="@style/tabText"
+        app:tabTextColor="@android:color/white"
+        android:layout_width="match_parent"
+        app:tabIndicatorHeight="0dp"
+        android:layout_height="30dp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerInCommonFragment"
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</FrameLayout>

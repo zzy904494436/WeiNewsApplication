@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.weinewsapplication.LoginActivity">
+
+    <include layout="@layout/myself1_include"/>
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/login_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="由于程序猿水平不够
+        目前只能用新浪登陆_(:з」∠)_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageViewLogin"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/sina_login_unpress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
